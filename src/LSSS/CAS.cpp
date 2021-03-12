@@ -409,7 +409,7 @@ void CAS::assign(unsigned int nn, unsigned int t)
   spec_as_unqualified= true;
 
   unsigned int ncomb= Combinations(n, t);
-  if (ncomb > 50)
+  if (ncomb > 500)
     {
       printf("\nAm not going to compute the CAS as number of combinations is too big\n");
       printf("\t%d C %d = %d\n", n, t, ncomb);
